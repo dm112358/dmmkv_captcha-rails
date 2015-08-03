@@ -6,12 +6,12 @@ require 'dmmkv_captcha/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "dmmkv_captcha-rails"
   spec.version       = DmmkvCaptcha::Rails::VERSION
-  spec.authors       = ["ricky"]
-  spec.email         = ["ricky.roah@icloud.com"]
+  spec.authors       = ["ricky", "dmmkv"]
+  spec.email         = ["ricky.roah@icloud.com", "dmmkv@qq.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{DmmkvCaptcha is a plugin to help you to validate requests in Rails.}
+  spec.description   = %q{DmmkvCaptcha is a plugin to help you to validate requests in Rails.}
+  spec.homepage      = "https://github.com/dmmkv/dmmkv_captcha-rails"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
